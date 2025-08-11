@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sir David Designs - Bespoke Tailoring in Kenya</title>
+    <meta name="description" content="Sir David Designs - Premium bespoke tailoring services in Kenya. Custom suits, trousers, and tailored clothing with exceptional craftsmanship.">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Sir David Designs</h1>
+                    <span class="tagline">Bespoke Tailoring</span>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-contact">
+                    <a href="tel:0713208363" class="phone-link">
+                        <i class="fas fa-phone"></i>
+                        <span>0713208363</span>
+                    </a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Crafting Elegance in Every Stitch</h1>
+                    <p class="hero-subtitle">Premium bespoke tailoring services in Kenya. Experience the perfect fit with our custom-made suits, trousers, and tailored clothing.</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">View Our Services</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Sir David Designs</h2>
+                    <p>With years of experience in bespoke tailoring, we create exceptional garments that reflect your personal style and ensure the perfect fit.</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Commitment to Excellence</h3>
+                        <p>At Sir David Designs, we believe that everyone deserves clothing that fits perfectly and reflects their unique style. Our master tailors combine traditional techniques with modern precision to create garments for men, women, and children that are not just clothes, but expressions of individuality and elegance.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature">
+                                <i class="fas fa-cut"></i>
+                                <h4>Expert Craftsmanship</h4>
+                                <p>Decades of tailoring expertise in every stitch</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-ruler"></i>
+                                <h4>Perfect Fit</h4>
+                                <p>Precision measurements for exceptional comfort</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-palette"></i>
+                                <h4>Premium Materials</h4>
+                                <p>Finest fabrics for all ages, sourced for durability and style</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/994234/pexels-photo-994234.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Master tailor at work creating bespoke suits">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services/Products Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services & Products</h2>
+                    <p>Discover our range of bespoke tailoring services for men, women, and children - from classic suits to modern casual wear and everything in between.</p>
+                </div>
+                
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <h3>Category</h3>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-category="all">All</button>
+                            <button class="filter-btn" data-category="suits">Men's Suits</button>
+                            <button class="filter-btn" data-category="women">Women's Wear</button>
+                            <button class="filter-btn" data-category="kids">Children's Wear</button>
+                            <button class="filter-btn" data-category="trousers">Trousers</button>
+                            <button class="filter-btn" data-category="shirts">Shirts</button>
+                            <button class="filter-btn" data-category="casual">Casual Wear</button>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h3>Color</h3>
+                        <div class="filter-buttons">
+                            <button class="color-btn active" data-color="all">All</button>
+                            <button class="color-btn" data-color="black">Black</button>
+                            <button class="color-btn" data-color="navy">Navy</button>
+                            <button class="color-btn" data-color="gray">Gray</button>
+                            <button class="color-btn" data-color="white">White</button>
+                            <button class="color-btn" data-color="pink">Pink</button>
+                            <button class="color-btn" data-color="red">Red</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Grid -->
+                <div class="products-grid" id="productsGrid">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-category="suits" data-color="navy">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bespoke navy blue suit">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product1')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Classic Navy Suit</h3>
+                            <p>Premium wool blend, perfect for business and formal occasions</p>
+                            <span class="price">KES 25,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 2 -->
+                    <div class="product-card" data-category="suits" data-color="black">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/1702736/pexels-photo-1702736.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Elegant black tuxedo">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product2')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Black Tuxedo</h3>
+                            <p>Elegant evening wear with satin lapels and perfect tailoring</p>
+                            <span class="price">KES 35,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 3 -->
+                    <div class="product-card" data-category="trousers" data-color="gray">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tailored gray trousers">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product3')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tailored Trousers</h3>
+                            <p>Classic fit trousers with impeccable attention to detail</p>
+                            <span class="price">KES 8,500</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 4 -->
+                    <div class="product-card" data-category="shirts" data-color="white">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Custom white dress shirt">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product4')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Custom Dress Shirt</h3>
+                            <p>Premium cotton with French cuffs and mother-of-pearl buttons</p>
+                            <span class="price">KES 5,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 5 -->
+                    <div class="product-card" data-category="suits" data-color="gray">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Charcoal gray business suit">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product5')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Charcoal Business Suit</h3>
+                            <p>Contemporary cut with modern styling for the professional</p>
+                            <span class="price">KES 28,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 6 -->
+                    <div class="product-card" data-category="casual" data-color="navy">
+                        <div class="product-image">
+                            <img src="file:///C:/Users/user/Downloads/Women's%20Casual%20Long%20Sleeve%20Blazer%20Suit%20blue-S(US%206-8).jpg" alt="Casual blazer">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product6')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Casual Blazer</h3>
+                            <p>Versatile blazer perfect for smart casual occasions</p>
+                            <span class="price">KES 15,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 7 - Women's Dress -->
+                    <div class="product-card" data-category="women" data-color="red">
+                        <div class="product-image">
+                            <img src="file:///C:/Users/user/Downloads/Favylove.jpg" alt="Elegant red evening dress">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product7')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Evening Dress</h3>
+                            <p>Elegant custom-fitted evening dress for special occasions</p>
+                            <span class="price">KES 18,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 8 - Women's Blouse -->
+                    <div class="product-card" data-category="women" data-color="white">
+                        <div class="product-image">
+                            <img src="file:///C:/Users/user/Downloads/Office%20Power%20Look%20_%20Plus-Size%20Tailored%20Pantsuit%20with%20Silk%20Blouse%20and%20Patent%20Leather%20Pumps.jpg" alt="Custom white silk blouse">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product8')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Silk Blouse</h3>
+                            <p>Premium silk blouse with perfect tailoring for professional wear</p>
+                            <span class="price">KES 7,500</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 9 - Women's Skirt -->
+                    <div class="product-card" data-category="women" data-color="navy">
+                        <div class="product-image">
+                            <img src="file:///C:/Users/user/Downloads/Hybrid%20&%20Company%20Womens%20Premium%20Nylon%20Ponte%20Stretch%20Office%20Fishtail%20Pencil%20Skirt%20High%20Waist%20Made%20in%20The%20USA%20Below%20Knee.jpg" alt="Tailored navy pencil skirt">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product9')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pencil Skirt</h3>
+                            <p>Classic tailored pencil skirt for business and formal wear</p>
+                            <span class="price">KES 6,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 10 - Kids' Suit -->
+                    <div class="product-card" data-category="kids" data-color="navy">
+                        <div class="product-image">
+                            <img src="file:///C:/Users/user/Downloads/Gucci%20Kids'%20Fashion%20_%20Childrensalon.jpg" alt="Children's navy suit">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product10')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Children's Suit</h3>
+                            <p>Adorable mini suit perfect for special occasions and events</p>
+                            <span class="price">KES 12,000</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 11 - Kids' Dress -->
+                    <div class="product-card" data-category="kids" data-color="pink">
+                        <div class="product-image">
+                            <img src="file:///C:/Users/user/Downloads/Young%20Girls'%20Round%20Neck%20Sequin%20Bow%20Tulle%20Elegant%20Host_Performance%20Dress,%20Suitable%20For%20Party%20&%20Holiday%20Celebration,%20Excluding%20Hairpin.jpg" alt="Pink children's party dress">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product11')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Party Dress</h3>
+                            <p>Beautiful custom party dress for your little princess</p>
+                            <span class="price">KES 8,500</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Product 12 - Kids' School Uniform -->
+                    <div class="product-card" data-category="kids" data-color="gray">
+                        <div class="product-image">
+                            <img src="file:///C:/Users/user/Downloads/Bombay%20Dyeing%20Kids%20School%20Uniform%20Shirt%20and%20Skirt%20HU5.jpg" alt="School uniform set">
+                            <div class="product-overlay">
+                                <button class="btn-view" onclick="openModal('product12')">View Details</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>School Uniform</h3>
+                            <p>Durable and comfortable school uniform tailored to fit perfectly</p>
+                            <span class="price">KES 4,500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Portfolio</h2>
+                    <p>Explore our finest work and see the craftsmanship that sets us apart.</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="file:///C:/Users/user/Downloads/Manfinity%20Mode%20Jaqueta%20social%20masculina%20de%20uso%20di%C3%A1rio,%20de%20cor%20s%C3%B3lida%20e%20mangas%20longas.jpg" alt="Collection of bespoke suits">
+                        <div class="gallery-overlay">
+                            <h3>Suit Collection</h3>
+                            <p>Premium business attire</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="file:///C:/Users/user/Downloads/African%20Men%20Clothing,Dashiki,%20Senator%20Wear,%20Grooms%20Men%20suit,%20mens%20Kaftan,%20Traditional%20wedding%20outfit,%20Nigeria%20senator,%20Caftan,%20Naija%20Fashion.jpg" alt="Wedding suits display">
+                        <div class="gallery-overlay">
+                            <h3>Wedding Attire</h3>
+                            <p>Special occasion wear</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="file:///C:/Users/user/Downloads/Men's%20Spring_Autumn%20Casual%20Business%20Plaid%20Patchwork%20Open%20Front%20Long%20Sleeve%20Shirt.jpg" alt="Custom shirts collection">
+                        <div class="gallery-overlay">
+                            <h3>Custom Shirts</h3>
+                            <p>Perfect fit guarantee</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Formal wear showcase">
+                        <div class="gallery-overlay">
+                            <h3>Formal Wear</h3>
+                            <p>Executive styling</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Casual tailored clothing">
+                        <div class="gallery-overlay">
+                            <h3>Smart Casual</h3>
+                            <p>Versatile wardrobe pieces</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tailoring workshop">
+                        <div class="gallery-overlay">
+                            <h3>Our Craft</h3>
+                            <p>Expert tailoring process</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to experience the perfect fit? Contact us to schedule your consultation.</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><a href="tel:0713208363">0713208363</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@sirdaviddesigns.co.ke">info@sirdaviddesigns.co.ke</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Nairobi, Kenya<br>Visit by appointment</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Hours</h3>
+                                <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <input type="text" placeholder="Your Name" required>
+                                <input type="tel" placeholder="Phone Number" required>
+                            </div>
+                            <input type="email" placeholder="Email Address" required>
+                            <select required>
+                                <option value="">Select Service</option>
+                                <option value="suits">Custom Suits</option>
+                                <option value="women">Women's Wear</option>
+                                <option value="kids">Children's Clothing</option>
+                                <option value="shirts">Dress Shirts</option>
+                                <option value="trousers">Tailored Trousers</option>
+                                <option value="casual">Casual Wear</option>
+                                <option value="consultation">Consultation</option>
+                            </select>
+                            <textarea placeholder="Tell us about your requirements" rows="4"></textarea>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Sir David Designs</h3>
+                        <p>Crafting elegance in every stitch since our inception. Your trusted partner for bespoke tailoring in Kenya.</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Custom Suits</li>
+                        <li>Women's Dresses</li>
+                        <li>Children's Clothing</li>
+                        <li>Dress Shirts</li>
+                        <li>Tailored Trousers</li>
+                        <li>Wedding Attire</li>
+                        <li>Alterations</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/254713208363" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sir David Designs. All rights reserved. | Bespoke Tailoring Kenya</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
